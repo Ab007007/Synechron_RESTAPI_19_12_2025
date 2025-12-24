@@ -20,7 +20,7 @@ public class createRepositoryusingPOJO {
 	public void initializeObject()
 	{
 		gObj = new GitRepoPOJO();
-		gObj.setName("GitRepoUsingPOJO123");
+		gObj.setName(GlobalVariables.git_repo_name);
 		gObj.setDesc("Desc - GitRepoUsingPOJO123");
 	}
 	
