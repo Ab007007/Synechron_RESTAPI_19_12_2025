@@ -50,7 +50,7 @@ public class JsonJaywayPathDemo
 		}
 		
 
-		System.out.println("Printing height less than 1000 " );
+		System.out.println("Printing height greater than 1000 " );
 		List<Integer> height = JsonPath.read(strResponse, "$.prefs.backgroundImageScaled[*].[?(@.height > 1000)].height");
 		
 		for (Integer h : height) {
