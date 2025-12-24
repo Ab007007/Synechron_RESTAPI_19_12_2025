@@ -4,4 +4,4 @@ test-output
 .mvn/
 .project
 .settings/
-src/main/java/com/synechron/RestAPIAutomation/data/GlobalVariables.java
+/C/Trainings/synechron_19_12_2025/Eclipse_WS/RestAPIAutomation/src/main/java/com/synechron/RestAPIAutomation/data/GlobalVariables.java
