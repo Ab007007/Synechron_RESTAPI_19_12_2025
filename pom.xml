@@ -60,36 +60,46 @@
       <version>6.0.0</version>
 </dependency>
 
-<dependency>
-      <groupId>io.rest-assured</groupId>
-      <artifactId>json-schema-validator</artifactId>
-      <version>6.0.0</version>
-</dependency>
+	<dependency>
+	      <groupId>io.rest-assured</groupId>
+	      <artifactId>json-schema-validator</artifactId>
+	      <version>6.0.0</version>
+	</dependency>
+	
+	<dependency>
+	    <groupId>io.rest-assured</groupId>
+	    <artifactId>scala-support</artifactId>
+	    <version>6.0.0</version>
+	</dependency>
+	
+	<dependency>
+	   <groupId>io.rest-assured</groupId>
+	   <artifactId>rest-assured-all</artifactId>
+	   <version>6.0.0</version>
+	</dependency>    
+	    <!-- https://mvnrepository.com/artifact/org.testng/testng -->
+	<dependency>
+	    <groupId>org.testng</groupId>
+	    <artifactId>testng</artifactId>
+	    <version>7.11.0</version>
+	</dependency>
+	
+	<!-- https://mvnrepository.com/artifact/org.skyscreamer/jsonassert -->
+	<dependency>
+	    <groupId>org.skyscreamer</groupId>
+	    <artifactId>jsonassert</artifactId>
+	    <version>1.5.3</version>
+	</dependency>
+	
+	
+	<dependency>
+	    <groupId>com.jayway.jsonpath</groupId>
+	    <artifactId>json-path</artifactId>
+	    <version>2.10.0</version>
+	</dependency>
 
-<dependency>
-    <groupId>io.rest-assured</groupId>
-    <artifactId>scala-support</artifactId>
-    <version>6.0.0</version>
-</dependency>
 
-<dependency>
-   <groupId>io.rest-assured</groupId>
-   <artifactId>rest-assured-all</artifactId>
-   <version>6.0.0</version>
-</dependency>    
-    <!-- https://mvnrepository.com/artifact/org.testng/testng -->
-<dependency>
-    <groupId>org.testng</groupId>
-    <artifactId>testng</artifactId>
-    <version>7.11.0</version>
-</dependency>
 
-<!-- https://mvnrepository.com/artifact/org.skyscreamer/jsonassert -->
-<dependency>
-    <groupId>org.skyscreamer</groupId>
-    <artifactId>jsonassert</artifactId>
-    <version>1.5.3</version>
-</dependency>
   </dependencies>
 
   <build>
